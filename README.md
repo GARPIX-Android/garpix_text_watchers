@@ -3,6 +3,10 @@
 
 Provides convenient conversion of strings to the required format
 
+## Requirements
+
+minSdkVersion 23 (Android 6.0 MarshMallow)
+
 ## Install
 
 Step 1. Add the JitPack repository to your build file
@@ -25,5 +29,6 @@ Step 2. Add the dependency
 ## Example
 
 ```sh
-	 
+val editText : EditText = *your initialization*
+editText.addTextChangedListener(GarpixDateTextWatcher(editText))
 ```
