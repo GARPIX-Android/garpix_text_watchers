@@ -1,0 +1,3 @@
+rootProject.name = "garpix_utils_pack"
+include ':app'
+include ':pack'
