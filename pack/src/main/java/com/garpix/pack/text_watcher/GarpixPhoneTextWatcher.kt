@@ -59,4 +59,8 @@ class GarpixPhoneTextWatcher constructor(private val input : EditText) : TextWat
         }
     }
 
+    companion object {
+        const val SECRET_KEY = 112
+    }
+
 }

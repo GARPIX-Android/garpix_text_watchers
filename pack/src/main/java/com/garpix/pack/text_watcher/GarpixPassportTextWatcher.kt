@@ -1,4 +1,4 @@
-package com.example.garpix.text_watcher
+package com.garpix.pack.text_watcher
 
 import android.text.Editable
 import android.text.TextWatcher
