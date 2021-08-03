@@ -33,7 +33,7 @@ Step 2. Add the dependency
 	 implementation 'com.github.GARPIX-Android:garpix_text_watchers:1.0.0'
 ```
 
-## Example
+## Usage
 
 ```sh
 val editText : EditText = findViewById(R.id.editText)
