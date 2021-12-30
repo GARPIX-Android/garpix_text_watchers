@@ -19,7 +19,7 @@ minSdkVersion 23 (Android 6.0 MarshMallow)
 Step 1. Add the JitPack repository to your build file
 Add it in your root build.gradle at the end of repositories:
 
-```sh
+```groovy
 	allprojects {
 		repositories {
 			...
@@ -29,25 +29,25 @@ Add it in your root build.gradle at the end of repositories:
 ```
 Step 2. Add the dependency
 
-```sh
+```groovy
 	 implementation 'com.github.GARPIX-Android:garpix_text_watchers:1.0.0'
 ```
 
 ## Usage
 
-```sh
+```kotlin
 val editText : EditText = findViewById(R.id.editText)
 editText.addTextChangedListener(GarpixDateTextWatcher(editText))
 ```
-```sh
+```kotlin
 val editText : EditText = findViewById(R.id.editText)
 editText.addTextChangedListener(GarpixPassportTextWatcher(editText))
 ```
-```sh
+```kotlin
 val editText : EditText = findViewById(R.id.editText)
 editText.addTextChangedListener(GarpixPhoneTextWatcher(editText))
 ```
-```sh
+```kotlin
 val editText : EditText = findViewById(R.id.editText)
 val suffix : String = " km."
 editText.addTextChangedListener(GarpixSuffixTextWatcher(editText, suffix ))
